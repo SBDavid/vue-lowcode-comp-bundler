@@ -1,0 +1,18 @@
+{
+  "name": "vue-lowcode-comp-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup main.js --file bundle.js --format umd --name myBundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "ant-design-vue": "^3.2.12",
+    "lodash": "^4.17.21"
+  }
+}
